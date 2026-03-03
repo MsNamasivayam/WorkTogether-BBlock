@@ -22,7 +22,7 @@ public class Frontend extends JFrame {
     @Override
     public void paint(Graphics g) {
         // Set the background
-        g.setColor(Color.WHITE);
+        g.setColor(new Color(196, 255, 244));
         g.fillRect(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT);
 
         // About You
