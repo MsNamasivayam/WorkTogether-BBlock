@@ -35,6 +35,10 @@ public class Frontend extends JFrame {
         g.setColor(Color.BLACK);
         g.setFont(new Font("Arial", Font.PLAIN, NORMAL_FONT_SIZE));
         g.drawString("Last Name: " + backend.getLastName(), (WINDOW_WIDTH/2)-(HEADER_FONT_SIZE*2), 300);
+        // Last Name
+        g.setColor(Color.BLACK);
+        g.setFont(new Font("Arial", Font.PLAIN, NORMAL_FONT_SIZE));
+        g.drawString("Last Name: " + backend.getLastName(), (WINDOW_WIDTH/2)-(HEADER_FONT_SIZE*2), 300);
         g.setFont(new Font("Serif", Font.BOLD, NORMAL_FONT_SIZE));
         g.drawString("Favorite animal: " + backend.getFavoriteAnimal(), WINDOW_WIDTH/4, 350);
     }
