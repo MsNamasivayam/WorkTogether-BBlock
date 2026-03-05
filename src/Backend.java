@@ -15,10 +15,6 @@ public class Backend {
         return lastName;
     }
 
-    public String getLastName(){
-        return lastName;
-    }
-
     public String getFavoriteAnimal() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your favorite animal: ");
