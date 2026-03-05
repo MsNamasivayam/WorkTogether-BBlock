@@ -31,6 +31,11 @@ public class Frontend extends JFrame {
         g.drawString("About You", (WINDOW_WIDTH/2)-(HEADER_FONT_SIZE*2), 200);
 
         // TODO: Paint Personal Information Here
+        // Last Name
+        g.setColor(Color.BLACK);
+        g.setFont(new Font("Arial", Font.PLAIN, NORMAL_FONT_SIZE));
+        g.drawString("Last Name: " + backend.getLastName(), WINDOW_WIDTH/4, 300);
+
         g.setFont(new Font("Serif", Font.BOLD, NORMAL_FONT_SIZE));
         g.drawString("Favorite animal: " + backend.getFavoriteAnimal(), WINDOW_WIDTH/4, 350);
     }
